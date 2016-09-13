@@ -12,6 +12,7 @@
   "author": "Matt Coleman",
   "license": "MIT",
   "devDependencies": {
+    "concurrently": "^2.2.0",
     "lite-server": "^2.2.2",
     "node-sass": "^3.9.3",
     "nodemon": "^1.10.2"
