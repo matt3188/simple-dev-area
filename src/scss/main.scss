@@ -1,0 +1,38 @@
+// Variables
+$badass: #bada55;
+
+* {
+  box-sizing: border-box;
+}
+
+body { 
+  margin: 0; 
+  padding: 0;
+  text-align: center;
+  background-color: $badass;
+}
+
+.content {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  background-color: #FFF;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  font: {
+    size: 12px;
+    family: "Helvetica", sans-serif;
+  }
+}
+.icon {
+  margin: 0;
+  font: {
+    size: 6em;
+  }
+}
